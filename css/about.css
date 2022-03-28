@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    margin-top: 50px;
+    cursor: url(https://cutekawaiiresources.files.wordpress.com/2016/11/hangyodon-bullet-6.gif), auto !important;
+}
+.nav-bar{
+    opacity: 0.9;
+    height: 80px;
+    width: 100%;
+    position:fixed;
+    top:0;
+    z-index: 1;
+
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f6accd;
+    font-family: 'Fredoka One', cursive;
+    text-transform: uppercase;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.nav-list{
+    float:right;
+    margin-right:15px;
+    margin-top:20px;
+}
+.list-item{
+    color: black;
+    display:inline;
+    list-style-type:none;
+    padding:0px 45px;
+
+}
+.nav-list a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+}
+.list-item:hover{
+    color: palevioletred;
+} 
+
+
+
+
+
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 9px solid #f6accd;
+
+
+    /* this below is for the background pic */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://cutewallpaper.org/25/anime-ocean-live-wallpaper-gif/anime-background-gif-posted-by-ethan-tremblay.gif)
+}
+
+
+.column{
+    float: left;
+
+    height: 37%;
+
+
+    width: 30%;
+
+
+
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #f6accd;
+}
+
+
+
+.hangyodon{
+    width: 180px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center; 
+    text-align: left;
+
+    padding-right: 10%;
+}
+
+
+
+    
+    
+.list-item2{
+    list-style-type: none;
+}
+
+
+
+
+
+h1{
+    font-family: 'Lobster', cursive;
+}
+h2{
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+
+
+.column h1{
+    position: relative;
+    left: 100%;
+    bottom: 195px;
+}
+.column h2{
+    position: relative;
+    bottom: 199px;
+    left: 25px;
+}
+.column p{
+    position: relative;
+    left: 100%;
+    width: 350px;
+    bottom: 199px;
+    font-size: 19px;
+}
+.column ul{
+    position: relative;
+    width: 499px;
+    right: 15px;
+    font-size: 20px;
+    bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+.youtube-video{
+    position: absolute;
+    transform: translate(-30%,-50%);
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    left: 1025px;
+}
+
+
+
+
+
+.youtube-video h2{
+    position: relative;
+    top: 11px;
+    left: 195px;
+}
+
+
+/* below styles the iframe link itself */
+
+
+
+
+
+iframe{
+    border-radius: 20px;
+    justify-content: center;
+    position: absolute;
+    height: 300px;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+/* this below is the gradient for the background pic on the hero image */
+
+#hero{
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://cutewallpaper.org/25/anime-ocean-live-wallpaper-gif/anime-background-gif-posted-by-ethan-tremblay.gif)
+}
+
+
+
+
+.fa-twitter-square{
+    color: white;
+    padding-left: 75%;
+    padding-right: 10px;
+}
+.fa-twitter-square:hover{
+    color: #f6accd;
+}
+
+
+
+
+
+.fa-reddit-square{
+    color: white;
+    padding-right: 10px;
+}
+.fa-reddit-square:hover{
+    color: #f6accd;
+}
+
+
+
+
+
+
+
+.fa-facebook-square{
+    color: white;
+    padding-right: 10px;
+}
+.fa-facebook-square:hover{
+    color: #f6accd;
+}
+
+
+
+
+
+.fa-github-square{
+    color: white;
+    padding-right: 10px;
+}
+.fa-github-square:hover{
+    color: #f6accd;
+}
+
+
+
+
+
+
+
+.fa-tumblr-square{
+    color: white;
+    padding-right: 10px;
+}
+.fa-tumblr-square:hover{
+    color: #f6accd;
+}
+
+
+
+
+
+
+footer{
+    background-color: black;
+    padding: 50px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+
+
+    border-top: 9px solid #f6accd;
+}
+   
+
+
+
+

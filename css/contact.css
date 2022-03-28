@@ -1,0 +1,326 @@
+body{
+    margin: 0;
+    margin-top: 50px;
+
+    /* below is for the cursor */
+    cursor: url(https://cutekawaiiresources.files.wordpress.com/2016/11/hangyodon-bullet-6.gif), auto !important;
+}
+.nav-bar{
+    opacity: 0.9;
+    height: 80px;
+    width: 100%;
+    position:fixed;
+    top:0;
+    z-index: 1;
+
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f6accd;
+    font-family: 'Fredoka One', cursive;
+    text-transform: uppercase;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.nav-list{
+    float:right;
+    margin-right:15px;
+    margin-top:20px;
+}
+.list-item{
+    color: black;
+    display:inline;
+    list-style-type:none;
+    padding:0px 45px;
+
+}
+.nav-list a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+}
+.list-item:hover{
+    color: palevioletred;
+} 
+
+
+
+
+
+
+
+section{
+    height: 100vh;
+    border-bottom: 9px solid #f6accd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    /* this below is for the background pic */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://cutewallpaper.org/25/anime-ocean-live-wallpaper-gif/anime-background-gif-posted-by-ethan-tremblay.gif)
+
+}
+
+
+
+.hangyodon{
+    width: 250px;
+    position: relative;
+    left: 57%;
+    bottom: 175px;
+}
+
+
+
+
+
+
+
+
+
+
+h1{
+    font-family: 'Lobster', cursive;
+    position: relative;
+    left: 55%;
+    bottom: 210px;
+}
+h2{
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+
+
+.contact-box{
+    width: 500px;
+    height: 400px;
+    background-color: azure;
+    box-shadow: 0 0 20px #999;
+    top: 25%;
+    right: 225px;
+}
+
+
+
+.contact-box{
+    border-radius: 14px;
+    position: relative;
+}
+
+
+
+form{
+    margin: 35px;
+}
+
+
+
+
+label{
+
+    font-family:'Lobster', cursive;
+    position: relative;
+    letter-spacing: 7px;
+    text-transform: lowercase;
+
+}
+
+
+
+
+
+
+
+
+
+
+.input-field{
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(116, 115, 115);
+    border-radius: 14px;
+    background-color: #f6accd;
+    outline: none;
+}
+
+
+
+
+
+.textarea-field{
+    height: 100px;
+    padding-top: 10px;
+}
+
+
+
+.btn{
+    border-radius: 20px;
+    color: rgb(220, 209, 209);
+    margin-top: 3px;
+    padding: 6px;
+    background-color: black;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #f6accd;
+}
+
+
+
+.btn::after{
+    color: #5bc3bf;
+}
+
+
+
+
+
+
+.section-inner h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.fa-twitter-square{
+    color: white;
+    padding-left: 75%;
+    padding-right: 10px;
+}
+.fa-twitter-square:hover{
+    color: #f6accd;
+}
+
+
+
+
+
+.fa-reddit-square{
+    color: white;
+    padding-right: 10px;
+}
+.fa-reddit-square:hover{
+    color: #f6accd;
+}
+
+
+
+
+
+
+
+.fa-facebook-square{
+    color: white;
+    padding-right: 10px;
+}
+.fa-facebook-square:hover{
+    color: #f6accd;
+}
+
+
+
+
+
+.fa-github-square{
+    color: white;
+    padding-right: 10px;
+}
+.fa-github-square:hover{
+    color: #f6accd;
+}
+
+
+
+
+
+
+
+.fa-tumblr-square{
+    color: white;
+    padding-right: 10px;
+}
+.fa-tumblr-square:hover{
+    color: #f6accd;
+}
+
+
+
+
+
+
+
+.google-map{
+    display: flex; 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+
+
+
+/* below is the gradient for teh background */
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://cutewallpaper.org/25/anime-ocean-live-wallpaper-gif/anime-background-gif-posted-by-ethan-tremblay.gif) 
+}
+  
+
+
+
+.words h2{
+    position: relative;
+    left: 53%;
+    bottom: 360px;
+    font-size: 30px;
+}
+
+
+/* this below targets the actual googlemap itself */
+
+
+.google-map iframe{
+    position: relative;
+    border-radius: 5%;
+    right: 278px;
+}
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background-color: black;
+    bottom: 0;
+}
+
+/* this below is the gradient for the background pic on the hero image */
+
+#hero{
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://cutewallpaper.org/25/anime-ocean-live-wallpaper-gif/anime-background-gif-posted-by-ethan-tremblay.gif)
+}
+
